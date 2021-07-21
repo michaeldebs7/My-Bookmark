@@ -1,0 +1,111 @@
+/* header */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: lightgreen;
+  font-family: sans-serif;
+}
+hr {
+  background: lightgreen;
+  height: 0.2rem;
+  border: none;
+  width: 80%;
+  margin: auto;
+}
+body {
+  background: black;
+}
+a {
+  text-decoration: none;
+  color: lightgreen;
+}
+.heading-nav > ul > li > a {
+  text-decoration: none;
+  padding: 0.2rem;
+  text-transform: uppercase;
+}
+li {
+  list-style: none;
+}
+.heading-wrapper {
+  margin: 0 1.5em;
+  height: 10vh;
+  border-bottom: lightgreen solid;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-nav {
+  flex: 2;
+  text-align: center;
+}
+.title {
+  text-align: start;
+  flex: -2;
+
+  text-transform: capitalize;
+}
+.sources {
+  flex: -2;
+}
+.sources > a:hover {
+  cursor: pointer;
+}
+.sources > a {
+  text-decoration: none;
+  padding: 0 1rem;
+  font-size: large;
+  border: none;
+  border: lightgreen solid 0.1rem;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* main */
+h3,
+h2 {
+  text-transform: capitalize;
+}
+h2 {
+  text-align: center;
+  margin: 0.2rem 0;
+}
+h3 {
+  margin: 0.2rem 0.5rem;
+}
+article > p {
+  text-align: center;
+}
+.yt-iframe {
+  width: 100%;
+  height: 25rem;
+}
+main {
+  display: grid;
+}
+
+.main-nav > li > a {
+  background: black;
+  border: lightgreen solid;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+.main-nav {
+  padding: 0.5rem;
+  height: 20rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media all and (min-width: 850px) {
+  .yt-iframe {
+    width: 75%;
+    margin: 0 12.5%;
+    height: 40rem;
+  }
+}
