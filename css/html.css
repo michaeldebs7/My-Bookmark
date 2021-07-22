@@ -76,6 +76,10 @@ h2 {
   text-transform: capitalize;
   margin: 1rem;
 }
+p > a:hover {
+  background: lightgreen;
+  color: black;
+}
 iframe {
   width: 90%;
   margin: 0 5%;
