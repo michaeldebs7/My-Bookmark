@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   background: black;
+  font-family: sans-serif;
 }
 nav > ul > li > a {
   text-decoration: none;
